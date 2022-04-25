@@ -1,5 +1,9 @@
-import logo from './logo.svg';
+import logo from './reacayd.jpg';
 import './App.css';
+
+
+const StringTest = "Patrick";
+Number = "3";
 
 function App() {
   return (
@@ -7,16 +11,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Este é um texto sendo exibido.
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <p>A string digitada é:{StringTest} </p>
+        <p>A variável numérica é: {Number}</p>
       </header>
     </div>
   );
